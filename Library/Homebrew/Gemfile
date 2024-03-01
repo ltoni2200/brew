@@ -29,7 +29,7 @@ group :sorbet, optional: true do
   gem "rspec-sorbet", require: false
   gem "sorbet", require: false
   gem "sorbet-runtime", require: false
-  gem "tapioca", require: false
+  gem "tapioca", ">= 0.6.2", require: false
 end
 
 # vendored gems
